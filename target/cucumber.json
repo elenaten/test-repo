@@ -1,0 +1,261 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4517850600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the User is on the brainpop homepage",
+            "match": {
+              "location": "BasicValidationSteps.the_User_is_on_the_brainpop_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1447200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Log In Button Validation",
+        "description": "",
+        "id": "login-flow;log-in-button-validation",
+        "after": [
+          {
+            "result": {
+              "duration": 675834800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 85411400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be able to see \"Log In\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log In",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginFlow.userShouldBeAbleToSeeButton(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3523586699,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the User is on the brainpop homepage",
+            "match": {
+              "location": "BasicValidationSteps.the_User_is_on_the_brainpop_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 63399,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Positive scenario to Log In",
+        "description": "",
+        "id": "login-flow;positive-scenario-to-log-in",
+        "after": [
+          {
+            "result": {
+              "duration": 4726372500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 762987100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter the correct credential to \"Log In\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log In",
+                  "offset": 38
+                }
+              ],
+              "location": "LoginFlow.user_enter_the_correct_credential_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2082947701,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be able to \"Log In\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log In",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginFlow.user_should_be_able_to(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3334379299,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the User is on the brainpop homepage",
+            "match": {
+              "location": "BasicValidationSteps.the_User_is_on_the_brainpop_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 69999,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Negative scenario to Log In",
+        "description": "",
+        "id": "login-flow;negative-scenario-to-log-in",
+        "after": [
+          {
+            "result": {
+              "duration": 4730131901,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 784256900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enter the incorrect credential to \"Log In\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log In",
+                  "offset": 40
+                }
+              ],
+              "location": "LoginFlow.user_enter_the_incorrect_credential_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 367977201,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should be see the error message",
+            "match": {
+              "location": "LoginFlow.user_should_be_see_the_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Flow",
+    "description": "",
+    "id": "login-flow",
+    "keyword": "Feature",
+    "uri": "features/LoginFlow.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@loginflow"
+      }
+    ]
+  }
+]
